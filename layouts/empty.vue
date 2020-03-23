@@ -1,17 +1,21 @@
 <template>
-  <v-app>
+  <v-app app dark>
     <v-content>
       <v-container fluid>
-        <h1 >Старница не найдена</h1>
+        <nuxt />
       </v-container>
     </v-content>
   </v-app>
 </template>
 
 <script>
-export default {}
+    export default {
+        name: "empty"
+    }
 </script>
 
 <style scoped>
 
 </style>
+<!-- App.vue -->
+
